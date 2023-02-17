@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+	int es=2,os=1,sume=0,sumo=0,i;
+	for(i=1;i<6;i++)
+	{
+		printf("%d\n",os);
+		sumo=sumo+os;
+		os=os+2;
+		printf("%d\n",es);
+		sume=sume+es;
+		es=es+2;
+		
+	}
+	printf("odd sum=%d\n",sumo);
+		printf("even sum=%d\n",sume);
+	
+	
+	
+}
